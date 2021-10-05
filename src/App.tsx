@@ -1,9 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import logo from "./logo.svg"
+import "./App.css"
+import * as tf from "@tensorflow/tfjs"
+
+function printSampleTensor() {
+  console.log(tf.layers.dense({units: 1, inputShape: [1]}))
+}
+printSampleTensor()
 
 const handleRunTraining = () => {
-  console.log("Run training")
 }
 
 function App() {

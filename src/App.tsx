@@ -63,7 +63,8 @@ function App() {
                     Learn React
                 </a>
                 <br/>
-                <button onClick={handleRunTraining}>Run Training</button> (and watch the console output)
+                <button onClick={handleRunTraining}>Run Training</button>
+                (and watch the console output)
             </header>
         </div>
     );
